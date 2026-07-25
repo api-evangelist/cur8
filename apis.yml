@@ -1,8 +1,17 @@
 aid: cur8
 name: Cur8
-description: 'Cur8 is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'CUR8 is a carbon removal intelligence platform based in Oxford, United Kingdom,
+  building the global market for high-quality carbon removals with a mission to remove one
+  billion tonnes of carbon a year. Founded in 2021 by Mark Stevenson, Marta Krupinska and
+  Gabrielle Walker, CUR8 combines financial and scientific expertise to source, evaluate
+  and manage diversified carbon removal portfolios spanning nature restoration, biochar,
+  direct air capture, enhanced weathering, superpollutant abatement and sustainable aviation
+  fuel. Its platform surfaces (Discover for sourcing removal assets, Manage for tracking
+  portfolio performance and risk, Finance for capital provision, and the Carbon Planner for
+  strategy) help enterprises invest in carbon impact with confidence on the path to net zero.
+  Clients include Microsoft, Coca-Cola HBC, Standard Chartered, Arup and UBS. CUR8 is backed
+  by Google Ventures (GV) and Airbus Ventures. No public API, SDK or developer program is
+  advertised as of this profile; access is via the CUR8 dashboard and platform.'
 url: https://raw.githubusercontent.com/api-evangelist/cur8/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +19,30 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/659563426515a6ce0aa4b30b/66f14ffababe2c6171b704f6_CUR8%20Open%20Graph%202.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Enterprise
+- Carbon Removal
+- Climate
+- Sustainability
+- Carbon Credits
+- Net Zero
+- Climate Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,28 @@ maintainers:
 common:
 - type: Website
   url: https://cur8.earth
+- type: About
+  url: https://www.cur8.earth/about
+- type: Blog
+  url: https://www.cur8.earth/blog
+- type: SignUp
+  url: https://dashboard.cur8.earth/sign-up
+- type: Login
+  url: https://dashboard.cur8.earth
+- type: PrivacyPolicy
+  url: https://www.cur8.earth/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.cur8.earth/legal/privacy-policy
+- type: Twitter
+  url: https://twitter.com/cur8earth
+- type: LinkedIn
+  url: https://www.linkedin.com/company/cur8earth
+- type: YouTube
+  url: https://www.youtube.com/@CUR8Earth
+- type: DomainSecurity
+  url: security/cur8-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
