@@ -1,0 +1,27 @@
+# Front Door AI Index — cur8 — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: cur8
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: cur8.earth
+  final_host: cur8.earth
+  ownership: own
+  owner: cur8
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 2
+  host_score: 2
+  density: 1.3
+  words: 1537
+  tiers:
+    agentic: 1
+    core: 1
+    model: 0
+  ambiguous: 1
+  top_terms:
+    AI: 1
+    copilot: 1
+    intelligence: 1
